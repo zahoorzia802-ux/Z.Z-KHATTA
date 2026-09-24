@@ -1,0 +1,7 @@
+<resources>
+    <color name="bg_dark">#020617</color>
+    <color name="gold_primary">#F59E0B</color>
+    <color name="emerald_primary">#10B981</color>
+    <color name="slate_card">#0F172A</color>
+    <color name="status_bar_color">#020617</color>
+</resources>

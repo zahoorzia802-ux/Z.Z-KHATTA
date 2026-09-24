@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Z.Z KHATA</string>
+    <string name="offline_mode_title">Offline Mode Active</string>
+    <string name="offline_mode_msg">Working offline. Data is saved safely to local storage.</string>
+    <string name="notification_channel_name">Khata Reminders</string>
+    <string name="notification_channel_desc">Customer balance and due payment alerts</string>
+</resources>

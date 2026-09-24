@@ -1,0 +1,6 @@
+{
+  "name": "Z.Z KHATA",
+  "description": "Mobile-first customer khata and ledger management app for shopkeepers to track customer balances, payments, and WhatsApp reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

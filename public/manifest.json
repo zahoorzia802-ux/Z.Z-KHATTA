@@ -1,0 +1,31 @@
+{
+  "id": "/",
+  "name": "Z.Z KHATA - Offline Khata & Ledger",
+  "short_name": "Z.Z KHATA",
+  "description": "Offline-first VIP PRO customer khata and ledger management app for shopkeepers to track customer balances, payments, and reminders without internet.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

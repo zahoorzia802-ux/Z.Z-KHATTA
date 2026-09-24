@@ -1,0 +1,228 @@
+import { AppLanguage } from '../types/khata';
+
+export const translations = {
+  english: {
+    appName: 'Z.Z KHATA',
+    tagline: 'Customer Khata & Ledger',
+    navHome: 'Home',
+    navCustomers: 'Customers',
+    navSettings: 'Settings',
+
+    // Dashboard Cards
+    totalCustomers: 'TOTAL CUSTOMERS',
+    apNeDiyeTotal: 'AP NE DIYE — ALL TOTAL',
+    apKoMileTotal: 'AP KO MILE — ALL TOTAL',
+    totalBalance: 'TOTAL BALANCE',
+    apNeLeneHain: 'Ap Ne Lene Hain',
+    apNeDeneHain: 'Ap Ne Dene Hain',
+    settled: 'Barabar / Settled',
+    totalBalanceSubtext: 'Net ledger balance across all customers',
+    noCustomersYet: 'No customers yet',
+    noCustomersSubtext: 'Add your first customer to start tracking ledger balances.',
+    noTransactionsYet: 'No transactions yet',
+    noTransactionsSubtext: 'Transactions will appear here when you record AP KO MILE or AP NE DIYE.',
+    recentCustomers: 'Recent Customers',
+    recentTransactions: 'Recent Transactions',
+    viewAll: 'View All',
+
+    // Buttons
+    addCustomer: '+ ADD CUSTOMER',
+    saveCustomer: 'SAVE CUSTOMER',
+    updateCustomer: 'UPDATE CUSTOMER',
+    cancel: 'Cancel',
+    save: 'Save',
+    edit: 'Edit',
+    delete: 'Delete',
+    call: 'Call',
+    whatsApp: 'WhatsApp',
+    viewKhata: 'View Khata',
+    shareKhata: 'Share Khata',
+    downloadPdf: 'Download / Share Khata PDF',
+    receipt: 'Receipt',
+    printReceipt: 'Print Receipt',
+    close: 'Close',
+
+    // Customer fields
+    customerName: 'Customer Name',
+    customerNamePlaceholder: 'e.g. Muhammad Ali',
+    mobileNumber: 'Mobile Number',
+    mobileNumberPlaceholder: '0300 1234567',
+    address: 'Address',
+    addressPlaceholder: 'e.g. Main Bazar, Shop # 4',
+    openingBalance: 'Opening Balance (Rs.)',
+    openingBalanceHelp: 'If customer already owes you money, enter amount. If 0, leave 0.',
+    notes: 'Notes',
+    notesPlaceholder: 'e.g. Weekly payment, reference',
+
+    // Khata screen
+    currentBalance: 'Current Balance',
+    openingBalanceLabel: 'Opening Balance',
+    filterAll: 'All',
+    history: 'Transaction History',
+    runningBalance: 'Running Balance',
+    amount: 'Amount',
+    date: 'Date',
+    time: 'Time',
+    note: 'Note',
+    notePlaceholder: 'Item name, bill number, details...',
+
+    // Transaction actions MUST remain in Roman English
+    apKoMile: 'AP KO MILE',
+    apNeDiye: 'AP NE DIYE',
+
+    // Confirmations
+    confirmDeleteCustomer: 'Are you sure you want to delete this customer and all of their khata transactions?',
+    confirmDeleteTx: 'Are you sure you want to delete this transaction?',
+    confirmRestore: 'Restore backup? Existing data may be replaced.',
+
+    // Settings
+    profileTitle: 'Shop Profile',
+    shopNameLabel: 'Business / Shop Name',
+    ownerNameLabel: 'Owner Name',
+    shopPhoneLabel: 'Mobile Number',
+    shopAddressLabel: 'Address',
+    saveProfile: 'Save Profile',
+    profileSaved: 'Profile updated successfully!',
+
+    languageTitle: 'Language / زبان',
+    darkModeTitle: 'Theme Mode',
+    modeLight: 'Light',
+    modeDark: 'Dark',
+    modeSystem: 'System Default',
+
+    appLockTitle: 'App Lock / PIN',
+    appLockEnabled: 'PIN Lock is Enabled',
+    appLockDisabled: 'PIN Lock is Disabled',
+    enablePin: 'Enable PIN Lock',
+    changePin: 'Change PIN',
+    disablePin: 'Disable PIN',
+    enterPinToUnlock: 'Enter PIN to unlock Z.Z KHATA',
+    setNewPin: 'Create New PIN (4-6 digits)',
+    confirmNewPin: 'Confirm PIN',
+    wrongPin: 'Incorrect PIN! Please try again.',
+    pinMismatch: 'PINs do not match! Please try again.',
+
+    backupTitle: 'Backup & Restore',
+    backupBtn: 'BACKUP DATA',
+    backupSubtext: 'Download all customers and transactions as a secure JSON backup.',
+    restoreBtn: 'RESTORE DATA',
+    restoreSubtext: 'Restore khata data from a previously saved backup file.',
+    aboutTitle: 'About Z.Z KHATA',
+    aboutText: 'Simple, fast, reliable Customer Khata & Ledger app crafted for Pakistani shopkeepers and retail merchants.',
+    version: 'Version 2.0.0 (Offline & Secure)',
+  },
+  urdu: {
+    appName: 'Z.Z KHATA',
+    tagline: 'کسٹمر کھاتہ و لیجر',
+    navHome: 'ہوم',
+    navCustomers: 'کھاتہ دار',
+    navSettings: 'سیٹنگز',
+
+    // Dashboard Cards
+    totalCustomers: 'TOTAL CUSTOMERS',
+    apNeDiyeTotal: 'AP NE DIYE — ALL TOTAL',
+    apKoMileTotal: 'AP KO MILE — ALL TOTAL',
+    totalBalance: 'TOTAL BALANCE',
+    apNeLeneHain: 'آپ نے لینے ہیں',
+    apNeDeneHain: 'آپ نے دینے ہیں',
+    settled: 'برابر / کلیئر',
+    totalBalanceSubtext: 'تمام کسٹمرز کا مجموعی بقایا بیلنس',
+    noCustomersYet: 'ابھی کوئی کسٹمر نہیں ہے',
+    noCustomersSubtext: 'کھاتہ شروع کرنے کے لیے نیا کسٹمر شامل کریں۔',
+    noTransactionsYet: 'ابھی کوئی ٹرانزیکشن نہیں ہے',
+    noTransactionsSubtext: 'جب آپ اینٹری کریں گے تو وہ یہاں نظر آئے گی۔',
+    recentCustomers: 'حالیہ کسٹمرز',
+    recentTransactions: 'حالیہ لین دین',
+    viewAll: 'تمام دیکھیں',
+
+    // Buttons
+    addCustomer: '+ نیا کسٹمر شامل کریں',
+    saveCustomer: 'کسٹمر محفوظ کریں',
+    updateCustomer: 'تبدیلی محفوظ کریں',
+    cancel: 'منسوخ',
+    save: 'محفوظ کریں',
+    edit: 'تبدیل کریں',
+    delete: 'ڈیلیٹ',
+    call: 'کال',
+    whatsApp: 'واٹس ایپ',
+    viewKhata: 'کھاتہ دیکھیں',
+    shareKhata: 'کھاتہ شیئر کریں',
+    downloadPdf: 'کھاتہ PDF ڈاؤنلوڈ / شیئر کریں',
+    receipt: 'رسید',
+    printReceipt: 'رسید پرنٹ کریں',
+    close: 'بند کریں',
+
+    // Customer fields
+    customerName: 'کسٹمر کا نام',
+    customerNamePlaceholder: 'مثلاً: محمد علی',
+    mobileNumber: 'موبائل نمبر',
+    mobileNumberPlaceholder: '0300 1234567',
+    address: 'پتہ',
+    addressPlaceholder: 'مثلاً: مین بازار، دکان نمبر 4',
+    openingBalance: 'سابقہ / اوپننگ بیلنس (روپے)',
+    openingBalanceHelp: 'اگر کسٹمر کی طرف پہلے سے بقایا ہے تو رقم درج کریں۔ اگر نہیں تو 0 رہنے دیں۔',
+    notes: 'نوٹس',
+    notesPlaceholder: 'مثلاً: ہفتہ وار کھاتہ، حوالہ',
+
+    // Khata screen
+    currentBalance: 'موجودہ بیلنس',
+    openingBalanceLabel: 'اوپننگ بیلنس',
+    filterAll: 'تمام',
+    history: 'کھاتہ ہسٹری',
+    runningBalance: 'بیلنس',
+    amount: 'رقم',
+    date: 'تاریخ',
+    time: 'وقت',
+    note: 'تفصیل / نوٹ',
+    notePlaceholder: 'سامان کا نام، بل نمبر وغیرہ...',
+
+    // Transaction actions MUST remain in Roman English
+    apKoMile: 'AP KO MILE',
+    apNeDiye: 'AP NE DIYE',
+
+    // Confirmations
+    confirmDeleteCustomer: 'Are you sure you want to delete this customer and all of their khata transactions?',
+    confirmDeleteTx: 'Are you sure you want to delete this transaction?',
+    confirmRestore: 'Restore backup? Existing data may be replaced.',
+
+    // Settings
+    profileTitle: 'دکان کی تفصیلات',
+    shopNameLabel: 'دکان / کاروبار کا نام',
+    ownerNameLabel: 'مالک کا نام',
+    shopPhoneLabel: 'موبائل نمبر',
+    shopAddressLabel: 'دکان کا پتہ',
+    saveProfile: 'پروفائل محفوظ کریں',
+    profileSaved: 'پروفائل کامیابی سے محفوظ ہوگئی!',
+
+    languageTitle: 'زبان / Language',
+    darkModeTitle: 'تھیم موڈ',
+    modeLight: 'لائٹ موڈ',
+    modeDark: 'ڈارک موڈ',
+    modeSystem: 'سسٹم ڈیفالٹ',
+
+    appLockTitle: 'ایپ لاک / پن کوڈ',
+    appLockEnabled: 'ایپ لاک فعال ہے',
+    appLockDisabled: 'ایپ لاک بند ہے',
+    enablePin: 'پن لاک لگائیں',
+    changePin: 'پن کوڈ تبدیل کریں',
+    disablePin: 'پن لاک ختم کریں',
+    enterPinToUnlock: 'Z.Z KHATA کھولنے کے لیے پن کوڈ درج کریں',
+    setNewPin: 'نیا پن کوڈ بنائیں (4 سے 6 ہندسے)',
+    confirmNewPin: 'پن کوڈ کی تصدیق کریں',
+    wrongPin: 'غلط پن کوڈ! دوبارہ کوشش کریں۔',
+    pinMismatch: 'پن کوڈ مماثل نہیں ہے! دوبارہ کوشش کریں۔',
+
+    backupTitle: 'بیک اپ اور بحالی',
+    backupBtn: 'BACKUP DATA',
+    backupSubtext: 'تمام کسٹمرز اور کھاتوں کا محفوظ JSON بیک اپ محفوظ کریں۔',
+    restoreBtn: 'RESTORE DATA',
+    restoreSubtext: 'پہلے سے محفوظ شدہ بیک اپ فائل سے ڈیٹا بحال کریں۔',
+    aboutTitle: 'Z.Z KHATA کے بارے میں',
+    aboutText: 'پاکستانی دکانداروں کے لیے تیز ترین، سادہ اور محفوظ کھاتہ لیجر ایپ۔',
+    version: 'ورژن 2.0.0 (آف لائن اور محفوظ)',
+  },
+};
+
+export function getTranslation(lang: AppLanguage) {
+  return translations[lang] || translations.english;
+}
